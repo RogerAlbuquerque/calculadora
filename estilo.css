@@ -1,0 +1,73 @@
+body{
+background: rgb(211, 211, 211);
+
+}
+
+#calculadora{
+
+    background: #2f2f31;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4%;
+    padding: 10px;
+    box-shadow: 4px 0px 2px black;
+}
+
+/* CONFIGURAÇÃO DO DISPLAY DA CALCULADORA */
+
+
+#resultado{
+background: white;
+margin: 30px 20px 30px 18px;
+width: 80%;
+padding: 10px;
+text-align: end;
+font-size: 20px;
+}
+
+input[type="text"]{
+    border-radius: 6px;
+}
+
+/* CONFIGURAÇÃO DO DISPLAY DA CALCULADORA FIM FIM FIM FIM*/
+
+/* CONFIGURANDO NÚMEROS DA CALCULADORA */
+#comandos{
+   
+    height: 280px;
+
+}
+.botao{
+background: #353841;
+color: white;
+font-size: 20px;
+width: 63px;
+height: 48px;
+margin: 4px;
+border: none;
+box-shadow: 1px 1px 2px black;
+}
+
+#zero, #C{
+    width: 138px;
+}
+
+#linha5{
+width: 222px;
+margin: 0px;
+padding: 0px;
+
+}
+#igual{
+    height: 106px;
+    float: right;
+    margin-right: 8px;
+}
+
+.botao:hover{
+    background: #27262c;
+}
+
+/* CONFIGURANDO NÚMEROS DA CALCULADORA FIM FIM FIM FIM */
